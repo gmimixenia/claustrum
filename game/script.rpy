@@ -1,7 +1,7 @@
-﻿# Imagedissolve Transitions. 
-define circleirisout = ImageDissolve("id_circleiris.png", 1.0) 
-define povname = "" 
-define pov = DynamicCharacter(u"povname") 
+﻿# Imagedissolve Transitions.
+define circleirisout = ImageDissolve("id_circleiris.png", 1.0)
+define povname = ""
+define pov = DynamicCharacter(u"povname")
 
 label start:
     $ povname = renpy.input("Меня зовут...")
@@ -30,5 +30,5 @@ label start:
             pov "Нужно найти то, что поможет мне выбраться.."
         "Кричать громче":
             pov "Что мне еще остается делать?"
-    
+    pov "Что ж..Кажется, мне нужно рассчитывать только на себя.."
     return
