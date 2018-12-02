@@ -34,7 +34,7 @@ define gui.idle_color = '#8EA7C0'
 define gui.idle_small_color = '#A5C3E1'
 
 ## Цвет, используемых в кнопках и панелях, когда они наведены.
-define gui.hover_color = '#4375A7'
+define gui.hover_color = '#97BEF8'
 
 ## Цвет, используемый текстовой кнопкой, когда она выбрана, но не наведена.
 ## Кнопка может быть выбрана, если это текущий экран или текущее значение
@@ -42,7 +42,7 @@ define gui.hover_color = '#4375A7'
 define gui.selected_color = '#DAE3ED'
 
 ## Цвет, используемый текстовой кнопкой, когда она не может быть выбрана.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#88887f'
 
 ## Цвета, используемые для частей панелей, которые не заполняются. Они
 ## используются не напрямую, а только при воссоздании файлов изображений.
@@ -50,8 +50,8 @@ define gui.muted_color = '#002851'
 define gui.hover_muted_color = '#003d7a'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#CBE4FC'
-define gui.interface_text_color = '#CBE4FC'
+define gui.text_color = '#A5C3E1'
+define gui.interface_text_color = '#A5C3E1'
 
 
 ## Шрифты и их размеры #########################################################
@@ -474,6 +474,3 @@ init python:
 
         gui.nvl_button_width = 1240
         gui.nvl_button_xpos = 20
-
-
-
